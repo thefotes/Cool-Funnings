@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AVFoundation/AVAudioPlayer.h>
 
-@interface SignInUpViewController : UIViewController
+@interface SignInUpViewController : UIViewController <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextField *userName;
+@property (weak, nonatomic) IBOutlet UITextField *password;
 @property (weak, nonatomic) IBOutlet UIImageView *homeImageView;
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 
+- (void)registerForNotifications;
 
 - (IBAction)makeItHappenCaptain:(id)sender;
 
