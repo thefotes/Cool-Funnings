@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SignInUpViewController.h
 //  Cool Funnings
 //
 //  Created by Peter Foti on 10/1/13.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SignInUpViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *homeImageView;
 
 @end
