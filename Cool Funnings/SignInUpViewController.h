@@ -12,4 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *homeImageView;
 
+
+- (IBAction)makeItHappenCaptain:(id)sender;
+
 @end

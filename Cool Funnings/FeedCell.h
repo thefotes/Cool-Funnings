@@ -13,5 +13,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *eventDateTime;
 @property (weak, nonatomic) IBOutlet UILabel *eventLocation;
 @property (weak, nonatomic) IBOutlet UILabel *eventUpVotes;
+@property (weak, nonatomic) IBOutlet UILabel *eventTags;
 
 @end
