@@ -7,6 +7,7 @@
 //
 
 #import "FeedViewController.h"
+#import "FeedCell.h"
 
 @interface FeedViewController ()
 
@@ -27,6 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.title = @"All the feed items";
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +37,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    FeedCell *feedCell = [tableView dequeueReusableCellWithIdentifier:@"feedCell"];
+    
+    feedCell.eventName.text = @"Party at Pete's";
+    return feedCell;
+}
 @end

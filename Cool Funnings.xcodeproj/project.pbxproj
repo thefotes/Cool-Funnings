@@ -37,6 +37,7 @@
 		9E33C86F17FB1FE400EC0E45 /* SignInUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E33C86E17FB1FE400EC0E45 /* SignInUp.storyboard */; };
 		9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87217FB208C00EC0E45 /* FunTabBarViewController.m */; };
 		9E33C87717FB22AC00EC0E45 /* SignInUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */; };
+		9E33C87A17FB2C2300EC0E45 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87917FB2C2300EC0E45 /* FeedCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		9E33C87217FB208C00EC0E45 /* FunTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunTabBarViewController.m; sourceTree = "<group>"; };
 		9E33C87517FB22AC00EC0E45 /* SignInUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInUpViewController.h; sourceTree = "<group>"; };
 		9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInUpViewController.m; sourceTree = "<group>"; };
+		9E33C87817FB2C2300EC0E45 /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		9E33C87917FB2C2300EC0E45 /* FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,8 +231,18 @@
 				9E33C87217FB208C00EC0E45 /* FunTabBarViewController.m */,
 				9E33C87517FB22AC00EC0E45 /* SignInUpViewController.h */,
 				9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */,
+				9E33C87B17FB2C2F00EC0E45 /* Views */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9E33C87B17FB2C2F00EC0E45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E33C87817FB2C2300EC0E45 /* FeedCell.h */,
+				9E33C87917FB2C2300EC0E45 /* FeedCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +347,7 @@
 			files = (
 				9E33C83517FB17E000EC0E45 /* ViewController.m in Sources */,
 				9E33C87717FB22AC00EC0E45 /* SignInUpViewController.m in Sources */,
+				9E33C87A17FB2C2300EC0E45 /* FeedCell.m in Sources */,
 				9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */,
 				9E33C82F17FB17E000EC0E45 /* AppDelegate.m in Sources */,
 				9E33C86D17FB1CEE00EC0E45 /* FeedViewController.m in Sources */,
