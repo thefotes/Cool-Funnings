@@ -18,4 +18,5 @@
 @property (nonatomic, copy) NSString *email;
 @property (nonatomic, strong) NSURL *profileImageUrl;
 @property (nonatomic, strong) UIImage *profileImage;
+
 @end
