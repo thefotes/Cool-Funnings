@@ -31,12 +31,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="5FD-JW-Vjr" id="cWb-Sh-KJE"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Emk-f3-oqB">
                                 <rect key="frame" x="20" y="355" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="5FD-JW-Vjr" id="CEN-FT-UBi"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4X-ni-Ihf">
                                 <rect key="frame" x="70" y="428" width="181" height="33"/>
@@ -55,6 +61,8 @@
                     <navigationItem key="navigationItem" id="w25-Nx-86S"/>
                     <connections>
                         <outlet property="homeImageView" destination="Kkh-TV-6vC" id="1bH-PZ-oA5"/>
+                        <outlet property="password" destination="Emk-f3-oqB" id="Cff-7Q-9fl"/>
+                        <outlet property="userName" destination="ykj-C2-oo4" id="xwo-U2-MOm"/>
                         <segue destination="Bou-TX-r4l" kind="push" identifier="SignUp" id="9b8-Aj-cUx"/>
                     </connections>
                 </viewController>

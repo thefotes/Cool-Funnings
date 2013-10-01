@@ -8,8 +8,7 @@
 
 #import "FeedViewController.h"
 #import "FeedCell.h"
-#import "EventModel.h"
-
+ 
 @interface FeedViewController ()
 @property (strong, nonatomic) NSMutableArray *eventItems;
 @end
@@ -32,12 +31,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.title = @"All the feed items";
-    EventModel *newModel = [[EventModel alloc] init];
-    newModel.eventName = @"Party time";
-    newModel.eventDate = [NSDate date];
-    newModel.eventLocation = @"Gainesville, FL";
-    newModel.tags = @[@"Bar", @"Bowling", @"Party"];
-    [self.eventItems addObject:newModel];
 }
 
 #pragma Instance Variables
@@ -65,12 +58,6 @@
 {
     FeedCell *feedCell = [tableView dequeueReusableCellWithIdentifier:@"feedCell"];
     
-    EventModel *newModel = [self.eventItems objectAtIndex:indexPath.row];
-    
-    feedCell.eventName.text = newModel.eventName;
-    feedCell.eventDateTime.text = [newModel dateFormattedFromDate:newModel.eventDate];
-    feedCell.eventLocation.text = newModel.eventLocation;
-    feedCell.eventTags.text = [newModel.tags componentsJoinedByString:@", "];
     
     return feedCell;
 }

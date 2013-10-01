@@ -37,9 +37,9 @@
 		9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87217FB208C00EC0E45 /* FunTabBarViewController.m */; };
 		9E33C87717FB22AC00EC0E45 /* SignInUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */; };
 		9E33C87A17FB2C2300EC0E45 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87917FB2C2300EC0E45 /* FeedCell.m */; };
-		9E33C87E17FB430D00EC0E45 /* EventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87D17FB430D00EC0E45 /* EventModel.m */; };
-		9E33C88117FB431300EC0E45 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C88017FB431300EC0E45 /* UserModel.m */; };
 		9E33C88517FB489800EC0E45 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C88417FB489800EC0E45 /* SignUpViewController.m */; };
+		9E33C88817FB603100EC0E45 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E33C88717FB603100EC0E45 /* AVFoundation.framework */; };
+		9E33C88A17FB612600EC0E45 /* famous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E33C88917FB612600EC0E45 /* famous.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,12 +92,15 @@
 		9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInUpViewController.m; sourceTree = "<group>"; };
 		9E33C87817FB2C2300EC0E45 /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
 		9E33C87917FB2C2300EC0E45 /* FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
-		9E33C87C17FB430D00EC0E45 /* EventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventModel.h; sourceTree = "<group>"; };
-		9E33C87D17FB430D00EC0E45 /* EventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventModel.m; sourceTree = "<group>"; };
-		9E33C87F17FB431300EC0E45 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
-		9E33C88017FB431300EC0E45 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		9E33C88317FB489800EC0E45 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		9E33C88417FB489800EC0E45 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		9E33C88717FB603100EC0E45 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9E33C88917FB612600EC0E45 /* famous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = famous.mp3; sourceTree = "<group>"; };
+		9E33C88B17FB675C00EC0E45 /* EmuEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuEvent.h; sourceTree = "<group>"; };
+		9E33C88C17FB675C00EC0E45 /* EmuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuModel.h; sourceTree = "<group>"; };
+		9E33C88D17FB675C00EC0E45 /* EmuUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuUser.h; sourceTree = "<group>"; };
+		9E33C88E17FB675C00EC0E45 /* EmuVenue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuVenue.h; sourceTree = "<group>"; };
+		9E33C88F17FB675C00EC0E45 /* EmuVote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuVote.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E33C88817FB603100EC0E45 /* AVFoundation.framework in Frameworks */,
 				9E33C86617FB194000EC0E45 /* SystemConfiguration.framework in Frameworks */,
 				9E33C86417FB193A00EC0E45 /* StoreKit.framework in Frameworks */,
 				9E33C86217FB193600EC0E45 /* Security.framework in Frameworks */,
@@ -156,6 +160,7 @@
 		9E33C81D17FB17E000EC0E45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E33C88717FB603100EC0E45 /* AVFoundation.framework */,
 				9E33C86517FB194000EC0E45 /* SystemConfiguration.framework */,
 				9E33C86317FB193A00EC0E45 /* StoreKit.framework */,
 				9E33C86117FB193600EC0E45 /* Security.framework */,
@@ -192,6 +197,7 @@
 		9E33C82517FB17E000EC0E45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E33C88917FB612600EC0E45 /* famous.mp3 */,
 				9E33C86917FB1C0C00EC0E45 /* funnings.jpg */,
 				9E33C82617FB17E000EC0E45 /* Cool Funnings-Info.plist */,
 				9E33C82717FB17E000EC0E45 /* InfoPlist.strings */,
@@ -254,10 +260,11 @@
 		9E33C88217FB431A00EC0E45 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9E33C87C17FB430D00EC0E45 /* EventModel.h */,
-				9E33C87D17FB430D00EC0E45 /* EventModel.m */,
-				9E33C87F17FB431300EC0E45 /* UserModel.h */,
-				9E33C88017FB431300EC0E45 /* UserModel.m */,
+				9E33C88B17FB675C00EC0E45 /* EmuEvent.h */,
+				9E33C88C17FB675C00EC0E45 /* EmuModel.h */,
+				9E33C88D17FB675C00EC0E45 /* EmuUser.h */,
+				9E33C88E17FB675C00EC0E45 /* EmuVenue.h */,
+				9E33C88F17FB675C00EC0E45 /* EmuVote.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -352,6 +359,7 @@
 				9E33C83717FB17E000EC0E45 /* Images.xcassets in Resources */,
 				9E33C82917FB17E000EC0E45 /* InfoPlist.strings in Resources */,
 				9E33C86A17FB1C0C00EC0E45 /* funnings.jpg in Resources */,
+				9E33C88A17FB612600EC0E45 /* famous.mp3 in Resources */,
 				9E33C83217FB17E000EC0E45 /* Main.storyboard in Resources */,
 				9E33C86F17FB1FE400EC0E45 /* SignInUp.storyboard in Resources */,
 			);
@@ -374,14 +382,12 @@
 			files = (
 				9E33C83517FB17E000EC0E45 /* ViewController.m in Sources */,
 				9E33C87717FB22AC00EC0E45 /* SignInUpViewController.m in Sources */,
-				9E33C87E17FB430D00EC0E45 /* EventModel.m in Sources */,
 				9E33C87A17FB2C2300EC0E45 /* FeedCell.m in Sources */,
 				9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */,
 				9E33C82F17FB17E000EC0E45 /* AppDelegate.m in Sources */,
 				9E33C88517FB489800EC0E45 /* SignUpViewController.m in Sources */,
 				9E33C86D17FB1CEE00EC0E45 /* FeedViewController.m in Sources */,
 				9E33C82B17FB17E000EC0E45 /* main.m in Sources */,
-				9E33C88117FB431300EC0E45 /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
