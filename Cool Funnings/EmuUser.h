@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "EmuModel.h"
 
-@protocol EmuUser <EmuUser>
+@protocol EmuUser <EmuModel>
 
 @property (nonatomic, copy) NSString *firstName;
 @property (nonatomic, copy) NSString *lastName;
@@ -18,5 +18,4 @@
 @property (nonatomic, copy) NSString *email;
 @property (nonatomic, strong) NSURL *profileImageUrl;
 @property (nonatomic, strong) UIImage *profileImage;
-
 @end
