@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5FD-JW-Vjr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0Xy-lg-57J">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
@@ -39,12 +39,15 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4X-ni-Ihf">
-                                <rect key="frame" x="98" y="406" width="125" height="30"/>
+                                <rect key="frame" x="70" y="428" width="181" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Lets Do It">
+                                <state key="normal" title="Make it happen captain">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="makeItHappenCaptain:" destination="5FD-JW-Vjr" eventType="touchUpInside" id="vQt-xM-yps"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -52,9 +55,55 @@
                     <navigationItem key="navigationItem" id="w25-Nx-86S"/>
                     <connections>
                         <outlet property="homeImageView" destination="Kkh-TV-6vC" id="1bH-PZ-oA5"/>
+                        <segue destination="Bou-TX-r4l" kind="push" identifier="SignUp" id="9b8-Aj-cUx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8G-y5-NI9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="322"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="ARV-L8-war">
+            <objects>
+                <viewController id="Bou-TX-r4l" customClass="SignUpViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3GH-Tf-KgI"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ol-6v-gZH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6cA-f7-lvn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="success" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itO-QC-252">
+                                <rect key="frame" x="151" y="254" width="63" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uQ3-IX-id4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OO9-ID-IFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="322"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="u44-ZJ-uOI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Xy-lg-57J" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lN6-H4-JeD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5FD-JW-Vjr" kind="relationship" relationship="rootViewController" id="dmn-I7-EfF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rIT-PB-pbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="322" y="322"/>
         </scene>

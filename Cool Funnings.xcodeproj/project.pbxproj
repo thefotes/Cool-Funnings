@@ -31,13 +31,15 @@
 		9E33C86217FB193600EC0E45 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E33C86117FB193600EC0E45 /* Security.framework */; };
 		9E33C86417FB193A00EC0E45 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E33C86317FB193A00EC0E45 /* StoreKit.framework */; };
 		9E33C86617FB194000EC0E45 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E33C86517FB194000EC0E45 /* SystemConfiguration.framework */; };
-		9E33C86817FB1A5D00EC0E45 /* EventsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E33C86717FB1A5D00EC0E45 /* EventsFeed.storyboard */; };
 		9E33C86A17FB1C0C00EC0E45 /* funnings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E33C86917FB1C0C00EC0E45 /* funnings.jpg */; };
 		9E33C86D17FB1CEE00EC0E45 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C86C17FB1CEE00EC0E45 /* FeedViewController.m */; };
 		9E33C86F17FB1FE400EC0E45 /* SignInUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E33C86E17FB1FE400EC0E45 /* SignInUp.storyboard */; };
 		9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87217FB208C00EC0E45 /* FunTabBarViewController.m */; };
 		9E33C87717FB22AC00EC0E45 /* SignInUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */; };
 		9E33C87A17FB2C2300EC0E45 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87917FB2C2300EC0E45 /* FeedCell.m */; };
+		9E33C87E17FB430D00EC0E45 /* EventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C87D17FB430D00EC0E45 /* EventModel.m */; };
+		9E33C88117FB431300EC0E45 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C88017FB431300EC0E45 /* UserModel.m */; };
+		9E33C88517FB489800EC0E45 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C88417FB489800EC0E45 /* SignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +82,6 @@
 		9E33C86117FB193600EC0E45 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9E33C86317FB193A00EC0E45 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9E33C86517FB194000EC0E45 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		9E33C86717FB1A5D00EC0E45 /* EventsFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventsFeed.storyboard; sourceTree = "<group>"; };
 		9E33C86917FB1C0C00EC0E45 /* funnings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = funnings.jpg; sourceTree = "<group>"; };
 		9E33C86B17FB1CEE00EC0E45 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
 		9E33C86C17FB1CEE00EC0E45 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
@@ -91,6 +92,12 @@
 		9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInUpViewController.m; sourceTree = "<group>"; };
 		9E33C87817FB2C2300EC0E45 /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
 		9E33C87917FB2C2300EC0E45 /* FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
+		9E33C87C17FB430D00EC0E45 /* EventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventModel.h; sourceTree = "<group>"; };
+		9E33C87D17FB430D00EC0E45 /* EventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventModel.m; sourceTree = "<group>"; };
+		9E33C87F17FB431300EC0E45 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		9E33C88017FB431300EC0E45 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		9E33C88317FB489800EC0E45 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		9E33C88417FB489800EC0E45 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +180,8 @@
 				9E33C82D17FB17E000EC0E45 /* AppDelegate.h */,
 				9E33C82E17FB17E000EC0E45 /* AppDelegate.m */,
 				9E33C83617FB17E000EC0E45 /* Images.xcassets */,
+				9E33C88217FB431A00EC0E45 /* Models */,
+				9E33C87B17FB2C2F00EC0E45 /* Views */,
 				9E33C87417FB209400EC0E45 /* View Controllers */,
 				9E33C87017FB205200EC0E45 /* Storyboards */,
 				9E33C82517FB17E000EC0E45 /* Supporting Files */,
@@ -215,7 +224,6 @@
 			children = (
 				9E33C83017FB17E000EC0E45 /* Main.storyboard */,
 				9E33C86E17FB1FE400EC0E45 /* SignInUp.storyboard */,
-				9E33C86717FB1A5D00EC0E45 /* EventsFeed.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -229,9 +237,7 @@
 				9E33C83417FB17E000EC0E45 /* ViewController.m */,
 				9E33C87117FB208C00EC0E45 /* FunTabBarViewController.h */,
 				9E33C87217FB208C00EC0E45 /* FunTabBarViewController.m */,
-				9E33C87517FB22AC00EC0E45 /* SignInUpViewController.h */,
-				9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */,
-				9E33C87B17FB2C2F00EC0E45 /* Views */,
+				9E33C88617FB489F00EC0E45 /* Sign In/Sign Up */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -243,6 +249,28 @@
 				9E33C87917FB2C2300EC0E45 /* FeedCell.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		9E33C88217FB431A00EC0E45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E33C87C17FB430D00EC0E45 /* EventModel.h */,
+				9E33C87D17FB430D00EC0E45 /* EventModel.m */,
+				9E33C87F17FB431300EC0E45 /* UserModel.h */,
+				9E33C88017FB431300EC0E45 /* UserModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9E33C88617FB489F00EC0E45 /* Sign In/Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				9E33C87517FB22AC00EC0E45 /* SignInUpViewController.h */,
+				9E33C87617FB22AC00EC0E45 /* SignInUpViewController.m */,
+				9E33C88317FB489800EC0E45 /* SignUpViewController.h */,
+				9E33C88417FB489800EC0E45 /* SignUpViewController.m */,
+			);
+			name = "Sign In/Sign Up";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +350,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E33C83717FB17E000EC0E45 /* Images.xcassets in Resources */,
-				9E33C86817FB1A5D00EC0E45 /* EventsFeed.storyboard in Resources */,
 				9E33C82917FB17E000EC0E45 /* InfoPlist.strings in Resources */,
 				9E33C86A17FB1C0C00EC0E45 /* funnings.jpg in Resources */,
 				9E33C83217FB17E000EC0E45 /* Main.storyboard in Resources */,
@@ -347,11 +374,14 @@
 			files = (
 				9E33C83517FB17E000EC0E45 /* ViewController.m in Sources */,
 				9E33C87717FB22AC00EC0E45 /* SignInUpViewController.m in Sources */,
+				9E33C87E17FB430D00EC0E45 /* EventModel.m in Sources */,
 				9E33C87A17FB2C2300EC0E45 /* FeedCell.m in Sources */,
 				9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */,
 				9E33C82F17FB17E000EC0E45 /* AppDelegate.m in Sources */,
+				9E33C88517FB489800EC0E45 /* SignUpViewController.m in Sources */,
 				9E33C86D17FB1CEE00EC0E45 /* FeedViewController.m in Sources */,
 				9E33C82B17FB17E000EC0E45 /* main.m in Sources */,
+				9E33C88117FB431300EC0E45 /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
