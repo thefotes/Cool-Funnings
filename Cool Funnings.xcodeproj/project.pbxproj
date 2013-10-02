@@ -45,6 +45,7 @@
 		9EB0900917FC59860048C2C5 /* EmuUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0900017FC59860048C2C5 /* EmuUtilities.m */; };
 		9EB0900A17FC59860048C2C5 /* EmuVenueParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0900317FC59860048C2C5 /* EmuVenueParse.m */; };
 		9EB0900B17FC59860048C2C5 /* EmuVoteParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0900617FC59860048C2C5 /* EmuVoteParse.m */; };
+		9EB0900F17FC5CF20048C2C5 /* EmuUserUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0900E17FC5CF20048C2C5 /* EmuUserUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,8 @@
 		9EB0900417FC59860048C2C5 /* EmuVote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuVote.h; sourceTree = "<group>"; };
 		9EB0900517FC59860048C2C5 /* EmuVoteParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuVoteParse.h; sourceTree = "<group>"; };
 		9EB0900617FC59860048C2C5 /* EmuVoteParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmuVoteParse.m; sourceTree = "<group>"; };
+		9EB0900D17FC5CF20048C2C5 /* EmuUserUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuUserUtilities.h; sourceTree = "<group>"; };
+		9EB0900E17FC5CF20048C2C5 /* EmuUserUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmuUserUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +314,8 @@
 			children = (
 				9EB08FFF17FC59860048C2C5 /* EmuUtilities.h */,
 				9EB0900017FC59860048C2C5 /* EmuUtilities.m */,
+				9EB0900D17FC5CF20048C2C5 /* EmuUserUtilities.h */,
+				9EB0900E17FC5CF20048C2C5 /* EmuUserUtilities.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -422,6 +427,7 @@
 				9EB0900B17FC59860048C2C5 /* EmuVoteParse.m in Sources */,
 				9EB0900717FC59860048C2C5 /* EmuEventParse.m in Sources */,
 				9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */,
+				9EB0900F17FC5CF20048C2C5 /* EmuUserUtilities.m in Sources */,
 				9E33C82F17FB17E000EC0E45 /* AppDelegate.m in Sources */,
 				9EB0900817FC59860048C2C5 /* EmuUserParse.m in Sources */,
 				9EB0900917FC59860048C2C5 /* EmuUtilities.m in Sources */,

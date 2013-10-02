@@ -19,7 +19,6 @@ typedef void (^EventRequestCompletionBlock)(BOOL success, NSError **error, NSArr
  *  SDK components, etc are done in here.
  */
 + (void)initializeEmuApp;
-+ (id<EmuUser>)currentUser;
 
 #pragma mark - Singleton
 

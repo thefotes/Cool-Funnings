@@ -28,16 +28,6 @@
                   clientKey:@"4Rsf8iQ6URagA1QHAYXsBTMQBFDr8oA5iacy1SSp"];
 }
 
-+ (id<EmuUser>)currentUser
-{
-    PFUser *currentUser = [PFUser currentUser];
-    
-    EmuUserParse *user = [[EmuUserParse alloc] init];
-    user.parseUser = currentUser;
-    
-    return user;
-}
-
 #pragma mark - Singleton
 
 + (instancetype)sharedUtilities
