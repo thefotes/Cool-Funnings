@@ -35,11 +35,11 @@
 {
     [super viewDidAppear:animated];
     
-//    UINavigationController *signUpInNav = [[UIStoryboard storyboardWithName:@"SignInUp" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
-//    
-//    [self presentViewController:signUpInNav
-//                       animated:YES
-//                     completion:nil];
+    UINavigationController *signUpInNav = [[UIStoryboard storyboardWithName:@"SignInUp" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
+    
+    [self presentViewController:signUpInNav
+                       animated:YES
+                     completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

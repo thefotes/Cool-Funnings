@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "EmuModel.h"
 
-@class EmuUser;
-@class EmuEvent;
+@protocol EmuUser;
+@protocol EmuEvent;
 
 @protocol EmuVote <NSObject>
 

@@ -40,6 +40,11 @@
 		9E33C88517FB489800EC0E45 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33C88417FB489800EC0E45 /* SignUpViewController.m */; };
 		9E33C88817FB603100EC0E45 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E33C88717FB603100EC0E45 /* AVFoundation.framework */; };
 		9E33C88A17FB612600EC0E45 /* famous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E33C88917FB612600EC0E45 /* famous.mp3 */; };
+		9EB0900717FC59860048C2C5 /* EmuEventParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB08FFA17FC59860048C2C5 /* EmuEventParse.m */; };
+		9EB0900817FC59860048C2C5 /* EmuUserParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB08FFE17FC59860048C2C5 /* EmuUserParse.m */; };
+		9EB0900917FC59860048C2C5 /* EmuUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0900017FC59860048C2C5 /* EmuUtilities.m */; };
+		9EB0900A17FC59860048C2C5 /* EmuVenueParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0900317FC59860048C2C5 /* EmuVenueParse.m */; };
+		9EB0900B17FC59860048C2C5 /* EmuVoteParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0900617FC59860048C2C5 /* EmuVoteParse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,10 +102,21 @@
 		9E33C88717FB603100EC0E45 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9E33C88917FB612600EC0E45 /* famous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = famous.mp3; sourceTree = "<group>"; };
 		9E33C88B17FB675C00EC0E45 /* EmuEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuEvent.h; sourceTree = "<group>"; };
-		9E33C88C17FB675C00EC0E45 /* EmuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuModel.h; sourceTree = "<group>"; };
-		9E33C88D17FB675C00EC0E45 /* EmuUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuUser.h; sourceTree = "<group>"; };
-		9E33C88E17FB675C00EC0E45 /* EmuVenue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuVenue.h; sourceTree = "<group>"; };
-		9E33C88F17FB675C00EC0E45 /* EmuVote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmuVote.h; sourceTree = "<group>"; };
+		9EB08FF817FC59860048C2C5 /* EmuEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuEvent.h; sourceTree = "<group>"; };
+		9EB08FF917FC59860048C2C5 /* EmuEventParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuEventParse.h; sourceTree = "<group>"; };
+		9EB08FFA17FC59860048C2C5 /* EmuEventParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmuEventParse.m; sourceTree = "<group>"; };
+		9EB08FFB17FC59860048C2C5 /* EmuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuModel.h; sourceTree = "<group>"; };
+		9EB08FFC17FC59860048C2C5 /* EmuUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuUser.h; sourceTree = "<group>"; };
+		9EB08FFD17FC59860048C2C5 /* EmuUserParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuUserParse.h; sourceTree = "<group>"; };
+		9EB08FFE17FC59860048C2C5 /* EmuUserParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmuUserParse.m; sourceTree = "<group>"; };
+		9EB08FFF17FC59860048C2C5 /* EmuUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuUtilities.h; sourceTree = "<group>"; };
+		9EB0900017FC59860048C2C5 /* EmuUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmuUtilities.m; sourceTree = "<group>"; };
+		9EB0900117FC59860048C2C5 /* EmuVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuVenue.h; sourceTree = "<group>"; };
+		9EB0900217FC59860048C2C5 /* EmuVenueParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuVenueParse.h; sourceTree = "<group>"; };
+		9EB0900317FC59860048C2C5 /* EmuVenueParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmuVenueParse.m; sourceTree = "<group>"; };
+		9EB0900417FC59860048C2C5 /* EmuVote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuVote.h; sourceTree = "<group>"; };
+		9EB0900517FC59860048C2C5 /* EmuVoteParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmuVoteParse.h; sourceTree = "<group>"; };
+		9EB0900617FC59860048C2C5 /* EmuVoteParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmuVoteParse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +201,7 @@
 				9E33C82D17FB17E000EC0E45 /* AppDelegate.h */,
 				9E33C82E17FB17E000EC0E45 /* AppDelegate.m */,
 				9E33C83617FB17E000EC0E45 /* Images.xcassets */,
+				9EB0900C17FC59B20048C2C5 /* Utilities */,
 				9E33C88217FB431A00EC0E45 /* Models */,
 				9E33C87B17FB2C2F00EC0E45 /* Views */,
 				9E33C87417FB209400EC0E45 /* View Controllers */,
@@ -260,11 +277,20 @@
 		9E33C88217FB431A00EC0E45 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9EB08FF817FC59860048C2C5 /* EmuEvent.h */,
+				9EB08FF917FC59860048C2C5 /* EmuEventParse.h */,
+				9EB08FFA17FC59860048C2C5 /* EmuEventParse.m */,
+				9EB08FFB17FC59860048C2C5 /* EmuModel.h */,
+				9EB08FFC17FC59860048C2C5 /* EmuUser.h */,
+				9EB08FFD17FC59860048C2C5 /* EmuUserParse.h */,
+				9EB08FFE17FC59860048C2C5 /* EmuUserParse.m */,
+				9EB0900117FC59860048C2C5 /* EmuVenue.h */,
+				9EB0900217FC59860048C2C5 /* EmuVenueParse.h */,
+				9EB0900317FC59860048C2C5 /* EmuVenueParse.m */,
+				9EB0900417FC59860048C2C5 /* EmuVote.h */,
+				9EB0900517FC59860048C2C5 /* EmuVoteParse.h */,
+				9EB0900617FC59860048C2C5 /* EmuVoteParse.m */,
 				9E33C88B17FB675C00EC0E45 /* EmuEvent.h */,
-				9E33C88C17FB675C00EC0E45 /* EmuModel.h */,
-				9E33C88D17FB675C00EC0E45 /* EmuUser.h */,
-				9E33C88E17FB675C00EC0E45 /* EmuVenue.h */,
-				9E33C88F17FB675C00EC0E45 /* EmuVote.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -278,6 +304,15 @@
 				9E33C88417FB489800EC0E45 /* SignUpViewController.m */,
 			);
 			name = "Sign In/Sign Up";
+			sourceTree = "<group>";
+		};
+		9EB0900C17FC59B20048C2C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9EB08FFF17FC59860048C2C5 /* EmuUtilities.h */,
+				9EB0900017FC59860048C2C5 /* EmuUtilities.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,8 +418,13 @@
 				9E33C83517FB17E000EC0E45 /* ViewController.m in Sources */,
 				9E33C87717FB22AC00EC0E45 /* SignInUpViewController.m in Sources */,
 				9E33C87A17FB2C2300EC0E45 /* FeedCell.m in Sources */,
+				9EB0900A17FC59860048C2C5 /* EmuVenueParse.m in Sources */,
+				9EB0900B17FC59860048C2C5 /* EmuVoteParse.m in Sources */,
+				9EB0900717FC59860048C2C5 /* EmuEventParse.m in Sources */,
 				9E33C87317FB208C00EC0E45 /* FunTabBarViewController.m in Sources */,
 				9E33C82F17FB17E000EC0E45 /* AppDelegate.m in Sources */,
+				9EB0900817FC59860048C2C5 /* EmuUserParse.m in Sources */,
+				9EB0900917FC59860048C2C5 /* EmuUtilities.m in Sources */,
 				9E33C88517FB489800EC0E45 /* SignUpViewController.m in Sources */,
 				9E33C86D17FB1CEE00EC0E45 /* FeedViewController.m in Sources */,
 				9E33C82B17FB17E000EC0E45 /* main.m in Sources */,
@@ -604,6 +644,7 @@
 				9E33C84F17FB17E000EC0E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E33C85017FB17E000EC0E45 /* Build configuration list for PBXNativeTarget "Cool FunningsTests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +653,7 @@
 				9E33C85217FB17E000EC0E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

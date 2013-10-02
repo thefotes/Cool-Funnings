@@ -84,13 +84,13 @@
 - (IBAction)makeItHappenCaptain:(id)sender {
 
     PFUser *user = [PFUser user];
-    user.username = @"Peter";
+    user.username = @"Sheldon Cooper";
     user.password = @"bazinga";
-    user.email = @"peter@coolfunnings.com";
+    user.email = @"sheldon@startrek.com";
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
-            // Hooray! Let them use the app now.
+            NSLog(@"signed up");
         } else {
             NSLog(@"%@", error.localizedDescription);
             // Show the errorString somewhere and let the user try again.
