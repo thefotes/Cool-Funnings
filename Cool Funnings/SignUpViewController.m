@@ -35,12 +35,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
- [[EmuUserUtilities sharedUtilities] signUpNewUserWithParameters:@{@"firstName": @"",
- @"lastName": @""}
- completion:^(BOOL success, NSError *__autoreleasing *error, id<EmuUser> user) {
- 
- }];
-*/
- 
 @end

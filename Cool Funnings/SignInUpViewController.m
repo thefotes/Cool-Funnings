@@ -8,8 +8,8 @@
 
 #import "SignInUpViewController.h"
 #import "SignUpViewController.h"
+#import <Parse/Parse.h>
 
-#import "EmuUserUtilities.h"
 
 @interface SignInUpViewController ()
 
@@ -82,7 +82,27 @@
 }
 
 - (IBAction)makeItHappenCaptain:(id)sender {
+
+    PFUser *user = [PFUser user];
+    user.username = @"Sheldon Cooper";
+    user.password = @"bazinga";
+    user.email = @"sheldon@startrek.com";
     
+    [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (!error) {
+            NSLog(@"signed up");
+        } else {
+            NSLog(@"%@", error.localizedDescription);
+            // Show the errorString somewhere and let the user try again.
+        }
+    }];
+//    [PFUser logInWithUsernameInBackground:self.userName.text
+//                                 password:self.password.text
+//                                    block:^(PFUser *user, NSError *error) {
+//                                        if (error) {
+//                                            NSLog(@"%@", error.localizedDescription);
+//                                        }
+//                                    }];
     
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"famous" ofType:@"mp3"];
     self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:filePath] error:nil];
